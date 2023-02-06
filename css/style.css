@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+#header {
+    display: flex;
+}
+
+#nav-bar {
+    position: fixed;
+    background-color: rgb(246, 246, 246);
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    width: 300px;
+}
+
+.nav-link {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+}
+
+#container {
+    max-width: 960px;
+    margin: 3rem auto;
+    overflow: hidden;
+}
+
+.message-box {
+    margin: 1.5rem;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.message-box input {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.4rem;
+    font-weight: bold;
+    background-color: #f1c40f;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #af8d04;
+    transition: 0.3s;
+}
+
+#features {
+    width: 90%;
+    margin-left: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#features i {
+    color: #af8d04;
+    width: 10%;
+}
+
+#features div div{
+    width: 80%;
+}
+
+#how-it-works {
+    padding: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
+#how-it-works #video {
+    width: 600px;
+    height: 340px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 2rem;
+}
+
+.price-box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    border: black solid 1px;
+}
+
+#pricing h3 {
+    padding: 1rem 0;
+    background-color: #c1c1c1;
+}
+#pricing h2 {
+    padding: 1.3rem 0;
+}
+
+#pricing p {
+    line-height: 2rem;
+}
+
+#pricing .btn {
+    padding: 1rem;
+    width: 40%;
+    margin: 1.5rem auto;
+}
+
+#pricing a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    padding: 1rem;
+    margin: 1.5rem auto 0;
+    width: 80%;
+    background-color: #c1c1c1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.8rem;
+}
+
+footer li {
+    margin-left: 1rem;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer p {
+    display: flex;
+    justify-content: flex-end;
+}
